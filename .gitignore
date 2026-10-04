@@ -1,0 +1,10 @@
+# Build artifacts
+*.elf
+*.bin
+*.map
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
