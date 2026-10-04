@@ -489,6 +489,16 @@ A future step will introduce `GPIOx_BSRR` for atomic GPIO set/reset operations.
 
 # Documentation
 
+## Project 02 — Debugging con GDB + ST-LINK
+
+La [guida pratica del Project 02](docs/project-02-debugging.md) segue il
+firmware attuale dal reset all'accensione del LED usando GDB e OpenOCD.
+La configurazione della scheda è in `openocd.cfg`.
+
+Il resoconto completo del laboratorio, con spiegazioni e valori osservati,
+è disponibile in [PDF](docs/STM32WL55JC1_Project_02_Debugging.pdf) e in
+[Markdown](docs/STM32WL55JC1_Project_02_Debugging.md).
+
 Additional project documentation is available in the [`docs`](./docs) directory.
 
 The documentation is intended to preserve not only the final implementation, but also the reasoning used to derive register addresses, bit fields, memory layout, startup behavior, and generated machine code.
